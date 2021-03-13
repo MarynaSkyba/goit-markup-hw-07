@@ -1,0 +1,122 @@
+/* footer */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--bgc-main);
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--primary-bg-color);
+}
+
+.logo-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--accent-color);
+}
+
+.main-address {
+    margin: 0;
+    padding: 0;
+}
+
+.address-p {
+    margin: 0;
+    padding: 0;
+}
+
+.address-title {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    padding-bottom: 9px;
+    padding-top: 20px;
+}
+
+.main-address .address-link {
+    color: rgba(255 ,255 ,255 ,0.6 );
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+.container.main {
+    display: flex;
+}
+
+.footer-address{
+    display: block;
+}
+
+.main-address .item:not(:last-child){
+    padding-bottom: 9px;
+}
+
+
+/*Присоединяйтесь*/
+
+.footer-nav .title {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,14;
+    margin-bottom: 20px;
+
+}
+
+.footer-nav {
+    display: block;
+    margin-left: 70px;
+}
+
+.nav-footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--primary-bg-color); 
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+}
+
+.nav-link-footer:hover,
+.nav-link-footer:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+    border-radius: 50%;
+} 
+
+.nav-icon{
+    fill: white;
+} 
+
+.nav-footer .nav-item:not(:last-child) {
+    margin-right: 10px;
+}
