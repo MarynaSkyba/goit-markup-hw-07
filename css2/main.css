@@ -352,7 +352,7 @@
     transition: transform 250ms var(--timing-fn);
 }
 
-.modal-icon {
+.button-close {
     margin: 0;
     padding: 0;
 
@@ -373,7 +373,7 @@
     
 }
 
-.modal-icon:hover {
+.button-close:hover {
     color: var(--accent-color);
     /* border-color: var(--accent-color); */
 }
@@ -384,7 +384,7 @@
     fill: currentColor
 }
 
-.modal .text {
+.modal .modal-text {
     margin: 0;
     padding: 0;
     font-weight: bold;
@@ -398,8 +398,7 @@
 }
 
 
-
-textarea {
+.form-field_textarea {
     resize: none;
     padding: 12px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -453,7 +452,7 @@ textarea {
     
 }
 
-.form-field .form-input {
+.form-field .form-field__input {
     position: relative;
     margin: 0;
     padding: 11px;
@@ -467,7 +466,7 @@ textarea {
     transition: border-color 250ms var(--timing-fn);
 }
 
-.form-field .form-label {
+.form-field .form-field__label {
     position: absolute;
     left: 0;
     transform: translateY(-18px);
@@ -485,7 +484,7 @@ textarea {
     color: var(--title-text-color);
 }
 
-.form-field textarea::placeholder {
+.form-field .form-field_textarea::placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -498,11 +497,11 @@ textarea {
 
 }
 
-textarea:focus-within {
+.form-field_textarea:focus-within {
     border-color: var(--accent-color);
 }
 
-.form-field .svg-icon {
+.form-field .form-field__icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -511,11 +510,11 @@ textarea:focus-within {
     transition: fill 250ms var(--timing-fn);
 }
 
-.form-input:focus ~ .svg-icon {
+.form-field__input:focus ~ .form-field__icon {
     fill: var(--accent-color);   
 }
 
-.form-input:focus-within {
+.form-field__input:focus-within {
     border-color: var(--accent-color);
     border-radius: 4px;
     
@@ -545,7 +544,7 @@ textarea:focus-within {
 }
 
 
-.checkbox-label .icon-check {
+.checkbox-label .checkbox-label__icon {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -555,7 +554,7 @@ textarea:focus-within {
     border-radius: 2px;
 }
 
-.checkbox:checked + .icon-check {
+.checkbox-label__input:checked + .checkbox-label__icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     background-image: url(../images/icon-check.svg);
@@ -565,7 +564,7 @@ textarea:focus-within {
     transition: all 250ms var(--timing-fn);
 }
 
-.checkbox {
+.checkbox-label__input {
     position: absolute;
     width: 1px;
     height: 1px;
