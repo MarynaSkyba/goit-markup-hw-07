@@ -11,7 +11,7 @@
     margin-bottom: 50px;
 }
 
-.portfolio-buttons__link {
+.general-buttons__link {
     margin-right: 8px;
     padding: 6px 22px;
 
@@ -29,8 +29,8 @@
 }
 
 
-.portfolio-buttons__link:focus,
-.portfolio-buttons__link:hover {
+.general-buttons__link:focus,
+.general-buttons__link:hover {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -52,7 +52,7 @@
     /* outline: 1px solid greenyellow; */
 }
 
-.portfolio .portfolio-label__title {
+.portfolio .product__name {
     margin: 0;
     padding: 0;
     color: var(--primary-text-color);
@@ -66,7 +66,7 @@
    
 }
 
-.portfolio .portfolio-label__text {
+.product-meta .product__discription {
     margin: 0;
     padding: 0;
     color: var(--title-text-color);
@@ -90,19 +90,19 @@
     /* outline: 1px solid red; */
 }
 
-.portfolio .portfolio-card:hover,
-.portfolio .portfolio-card:focus {
+.portfolio .product:hover,
+.portfolio .product:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
-.portfolio-label {
+.product__meta{
     padding: 20px 24px;
 
     /* outline: 5px solid orange; */
 }
 
-.portfolio-card .portfolio-text {
+.product .product__text {
     margin: 0;
     position: absolute;
     top: 0;
@@ -121,14 +121,14 @@
     transition: all 250ms var(--timing-fn); 
 }
 
-.portfolio-card:hover .portfolio-text{ 
+.product:hover .product__text{ 
     opacity: 1;
     transform: translateY(0);
     
     
 }
 
-.portfolio-card .portfolio-thumb {
+.product .product__thumb {
     position: relative;
     overflow: hidden;
     

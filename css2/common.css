@@ -348,7 +348,7 @@ img {
 }
 
 
-.subscribe .subscribe-title {
+.subscribe .subscribe__title {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -360,7 +360,7 @@ img {
     margin-bottom: 20px;
 }
 
-.subscribe-input {
+.subscribe__input {
     color: var(--primary-bg-color);
     padding: 15px;
     width: 358px;
@@ -373,7 +373,7 @@ img {
     margin-right: 12px;
 }
 
-.subscribe .subscribe-button  {
+.subscribe .subscribe__button  {
     display: inline-flex;
     align-items: center;
    
@@ -393,7 +393,7 @@ img {
     border-radius: 4px;
 }
 
-.subscribe .subscribe-button::after {
+.subscribe .subscribe__button::after {
     content: "";
     display: inline-block;
     width: 24px;

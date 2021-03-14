@@ -55,13 +55,13 @@
 
 /* features */
 
-.feature {
+.feature__container {
     padding-bottom: 94px;
     padding-top: 94px;
 
 }
 
-.feature-list {
+.feature__list {
     margin: 0;
     padding: 0;
     display: flex;
@@ -71,12 +71,12 @@
 
 }
 
-.feature-list .feature-item {
+.feature__list .feature {
     margin-left: 30px;
     flex-basis: calc(100% / 4 - 30px );
 }
 
-.feature-list .feature-thumb {
+.feature .feature__thumb {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@
 }
 
 
-.feature .feature-title {
+.feature .feature__title {
     margin-top: 0;
     margin-bottom: 10px;
     color: var(--primary-text-color);
@@ -96,7 +96,7 @@
     text-transform: uppercase;
 }
 
-.feature .feature-text{
+.feature .feature__text{
     margin-top: 0;
     margin-bottom: 0;
     color: var(--title-text-color);
@@ -123,22 +123,22 @@
     /* background-color: cadetblue; */
 }
 
-.work-list {
+.work__list {
     display: flex;
     margin-left: -30px;
 }
 
-.work-list  .work-item {  
+.work__list  .work__item {  
     position: relative;
     margin-left: 30px;
     flex-basis: calc(100% / 3 - 30px);
 }
 
-.work-item .work-thumb {
+.work__item .work__thumb {
     position: relative;
 }
 
-.work-thumb .work-text {
+.work__thumb .work__text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -169,7 +169,7 @@
     padding-bottom: 94px;
 }
 
-.comand-header {
+.comand__header {
     
     margin-top: 0;
     margin-bottom: 50px;
@@ -180,7 +180,7 @@
     text-align: center;
 }
 
-.comand-name {
+.comand__name {
     margin: 0;
     text-align: center;
     color: var(--primary-text-color);
@@ -191,7 +191,7 @@
     margin-bottom: 10px;
 }
 
-.comand-profesion {
+.comand__profesion {
     text-align: center;
     color: var(--title-text-color);
     font-weight: normal;
@@ -208,7 +208,7 @@
      margin-right: 30px;
 } */
 
-.comand-group > .comand-item {
+.comand-group > .comand__item {
     background-color: var(--primary-bg-color);
     margin-left: 30px;
     flex-basis: calc(100% / 4 - 30px );
