@@ -79,14 +79,14 @@
     align-items: center;
     width: 44px;
     height: 44px;
-    color: &primary-bg-color; 
+    color: $primary-bg-color; 
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    transition: color 250ms &timing-fn, background-color 250ms &timing-fn;
+    transition: color 250ms $timing-fn, background-color 250ms $timing-fn;
 }
 &__link:hover,
 &__link:focus {
-    background-color: &accent-color;
+    background-color: $accent-color;
     color: $primary-bg-color;
 }
 &__icon{
