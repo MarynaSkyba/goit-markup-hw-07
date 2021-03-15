@@ -500,4 +500,102 @@ img {
 .clients-group__link {
   fill: currentColor;
 }
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2F303A;
+}
+
+.footer-address {
+  display: block;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+.footer-address__text {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  padding-bottom: 9px;
+  padding-top: 20px;
+}
+
+.footer-address__logo {
+  color: #ffffff;
+}
+
+.address-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.address-nav .address-nav__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address-nav .address-nav__item:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.footer-nav {
+  display: block;
+  margin-left: 70px;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+.footer-nav .footer-nav__title {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44px;
+  height: 44px;
+  color: .footer-list__link primary-bg-color;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  -webkit-transition: color 250ms .footer-list__link timing-fn, background-color 250ms .footer-list__link timing-fn;
+  transition: color 250ms .footer-list__link timing-fn, background-color 250ms .footer-list__link timing-fn;
+}
 /*# sourceMappingURL=main.css.map */
